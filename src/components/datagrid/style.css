@@ -1,0 +1,31 @@
+.middle-section-wrapper {
+  display: "flex";
+  gap: 1rem;
+}
+.custom-data-grid {
+  background-color: #fff;
+  padding: 1rem;
+  border: 1px solid rgb(204, 204, 204);
+  min-height: 440px !important;
+  border-radius: 8px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  border-bottom: none !important;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 8px;
+}
+.sector-label-textarea > #sector-label {
+  /* background-color:;
+   */
+  padding: 8px;
+}
+.table-header-title {
+  color: #2f2b3dc7 !important;
+  margin-bottom: 1rem;
+}
+.selection-area {
+  display: flex !important;
+}

@@ -1,0 +1,66 @@
+.stack-container {
+  background-color: #ffffff !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+  border-radius: 8px;
+}
+#card-1:hover {
+  border-bottom: 2px solid #ea5455;
+  border-top: 2px solid #ea5455;
+}
+#card-2:hover {
+  border-bottom: 2px solid #28c767;
+  border-top: 2px solid #28c767;
+}
+#card-3:hover {
+  border-bottom: 2px solid #00cfe8;
+  border-top: 2px solid #00cfe8;
+}
+.card-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: red; */
+  height: 38px !important;
+  width: 38px !important;
+  text-align: center !important;
+  border-radius: 4px !important;
+  /* color: blueviolet; */
+}
+.card-title {
+  font-size: 18px !important;
+  color: "#2F2B3DC7" !important;
+}
+.card-description-wrapper {
+  display: flex;
+  text-align: left !important;
+  gap: 8px;
+}
+.card-description {
+  font-size: 16px !important;
+  color: "#2F2B3DC7" !important;
+  align-self: center;
+}
+.card-number {
+  font-size: 34px;
+}
+.card-1 {
+  border: 1px solid #ea5455;
+  background: rgba(234, 84, 85, 0.16);
+}
+.card-2 {
+  border: 1px solid #28c767;
+  background: rgba(40, 199, 103, 0.16);
+}
+.card-3 {
+  border: 1px solid #00cfe8;
+  background: rgba(0, 207, 2323, 0.16);
+}
+.FlashOnIcon {
+  color: #ea5455;
+}
+.WhatshotIcon {
+  color: #27c76f;
+}
+.AddModeratorIcon {
+  color: #00cfe8;
+}

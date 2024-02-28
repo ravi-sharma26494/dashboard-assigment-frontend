@@ -1,0 +1,35 @@
+.stack-container {
+background-color: #ffffff !important;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+}
+.stack-container:hover{
+    border-bottom: 2px solid blueviolet;
+}
+.card-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: red; */
+    height: 38px !important;
+    width: 38px !important;
+    text-align: center !important;
+    border-radius: 4px !important;
+    color: blueviolet;
+}
+.card-title{
+    font-size: 18px !important;
+    color: '#2F2B3DC7' !important;
+}
+.card-description-wrapper{
+    display: flex;
+    text-align: center;
+    gap: 8px;
+}
+.card-description{
+    font-size: 16px !important;
+    color: '#2F2B3DC7' !important;
+    align-self: center;
+}
+.card-number{
+    font-size: 34px;
+}

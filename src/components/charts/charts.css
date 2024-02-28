@@ -1,0 +1,21 @@
+.chart-wrapper {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: none;
+  border: 1px solid rgba(47, 43, 61, 0.16);
+  width: 100%;
+  min-height: 440px;
+}
+.square-chart-title {
+  color: #2f2b3dc7;
+  font-size: 18px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+}
+@media only screen and (max-width: 900px) {
+  .chart-wrapper {
+    width: 99%;
+    height: 411px;
+  }
+}
